@@ -29,6 +29,11 @@ jobs:
 
     - name: List files for debugging
       run: ls -R
+
+    - name: List files to debug report location
+      run: |
+        echo "Listing all files in the current directory and subdirectories:"
+        ls -R
         
     - name: Upload ZAP Report
       uses: actions/upload-artifact@v3

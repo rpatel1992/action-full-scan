@@ -9,7 +9,7 @@ inputs:
     required: false
     default: ${{ github.token }}
   target:
-    description: 'Target URL'
+    description: 'https://www.mrtesting.com/'
     required: true
   rules_file_name:
     description: 'Relative path of the ZAP configuration file'

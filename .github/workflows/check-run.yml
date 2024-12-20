@@ -26,6 +26,10 @@ jobs:
       with:
         target: 'http://www.mrtesting.com'
         allow_issue_writing: false
+        report-path: 'zap_report.html'
+
+    - name: List files for debugging
+      run: ls -R
         
     - name: Upload ZAP Report
       uses: actions/upload-artifact@v3

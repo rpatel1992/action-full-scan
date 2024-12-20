@@ -35,4 +35,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: zap-report
-        path: report_html.html
+        path: zap_report.html
